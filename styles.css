@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 14px;
+    margin: 0;
+}
+
+body {
+    font-family: Tahoma, Montserrat, sans-serif;
+    color: #fff;
+    background-color: #4c4a4b;
+    margin: auto;
+    max-width: 950px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+
+.header-logo {
+    width: 100px;
+    max-height: 100px;
+}
+
+.header-title h1 {
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+.header-title h4 {
+    color: #a59fa1;
+    font-size: 0.6rem;
+}
+
+.header-title h1,
+.header-title h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-logo img{
+    width: 100%;
+    height: auto;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 1rem;
+}
+
+#featured-work h2,
+#about-me h2 {
+    text-align: center;
+}
+
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projects-wrapper {
+    background-color: #847f81;
+    border-radius: 10px;
+    padding: 0.4rem;
+    border: 2px solid #847f81;
+    transition: all 0.3s;
+}
+
+.projects-wrapper:hover {
+    border: 2px solid #07bdef;
+}
+
+.projects-wrapper img {
+    height: auto;
+    width: 100%;
+}
+
+#about-me h2{
+    padding-top: 1.5rem;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.project-title h3 {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.profile-description p{
+    text-align: justify;
+    padding: 0 0.5rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 0 1rem;
+}
+
+.fa {
+    background: #205D7A;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background:#007bb6;
+}
+
+.fa-facebook {
+    background:#3b5998;
+}
+
+.fa-instagram {
+    background:#007bb6;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.footer-text {
+    color: #a59fa1;
+    font-size:0.7rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 576px){
+    html,
+    body {
+        font-size: 16px;
+    }
+    .centered {
+        flex-direction: row;
+    }
+
+    .projects-wrapper img {
+        max-height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    html,
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    html,
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    html,
+    body {
+        font-size: 20px;
+    }
+}

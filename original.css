@@ -1,0 +1,522 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+
+body {
+  font-family: Tahoma, Montserrat, sans-serif;
+  color: #fff;
+  font-size: 1em;
+  background-color: #4c4a4b;
+  margin: auto;
+  width: 950px;
+}
+
+ul {
+    overflow: auto;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+}
+
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-linkedin {
+    background:#007bb6;
+}
+
+.fa-facebook {
+    background:#3b5998;
+}
+
+.fa-instagram {
+    background:#007bb6;
+}
+
+ul li a i:hover {
+    opacity: 0.7;
+}
+
+.header {
+  letter-spacing: 1px;
+  height: 8em;
+  color: #fff;
+}
+
+.header-logo {
+  width: 150px;
+  position: relative;
+  display: block;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  float: left;
+}
+
+.header-title {
+  line-height: 0.6em;
+  position: relative;
+  display: block;
+  margin-top: 2em;
+  float: right;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+h4 {
+  color: #a59fa1;
+  font-size: 1em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+}
+
+.projects {
+  text-align: center;
+  margin: 1.5em auto 0 auto;
+}
+
+.wrapper {
+  background-color: #847f81;
+  border-radius: 4%;
+  margin-bottom: 0.8em;
+  width: 14.2em;
+  height: 10.8em;
+  text-align: center;
+}
+
+.wrapper:hover {
+  border: 2px solid #07bdef;
+}
+
+.pic {
+  margin-top: 0.8em;
+}
+
+.centered {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  margin: 0 !important;
+}
+
+@media only screen and (max-width:767px) {
+
+.centered {
+  display: block;
+}
+}
+
+.centered .col-md-4 {
+  flex:1;
+}
+
+.footer-text {
+  color: #a59fa1;
+  font-size:0.7em;
+ }
+
+.img {
+  position: relative;
+  width: 100%;
+}
+
+.img img{
+  display:block;
+  margin-top: 100;
+  width: 100%;
+  height: auto;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  margin-left: 27em;
+
+}
+
+@media screen and (max-width: 500px) {
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+}
+
+.header {
+  height: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-logo {
+  display:block;
+  width: 20%;
+  position: relative;
+  margin-top: 1em;
+  margin-left: 1em;
+  float: left;
+}
+
+.header-title {
+  line-height: 0.1em;
+  position: relative;
+  display: block;
+  margin-top: 1em;
+  margin-right: 0.8em;
+  float: right;
+}
+
+h1 {
+  font-size: 0.7em;
+}
+
+h2 {
+  font-size: 0.7em;
+}
+
+h3 {
+  font-size: 0.6em;
+}
+
+h4 {
+  font-size: 0.55em;
+}
+
+.img img {
+  display:block;
+  width: 75%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin :20px 0px 0 50px;
+}
+}
+
+#Featured-Work {
+  margin-top: 1.5em;
+}
+
+#About-me {
+  margin-top: 1.5em;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+p {
+  font-size: 70%;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+@media screen and (min-width: 501px) {
+  
+body {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+}
+
+.header {
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-logo {
+  display:block;
+  width: 20%;
+  position: relative;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-bottom:1em;
+  float: left;
+}
+
+.header-title {
+  line-height: 0.1em;
+  position: relative;
+  display: block;
+  margin-top: 1.5em;
+  margin-right: 1.75em;
+  float: right;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 0.85em;
+}
+  
+h3 {
+  font-size: 0.75em;
+}
+
+h4 {
+  font-size: 0.6em;
+}
+ 
+.img img {
+   display: block;
+   width: 90%;
+   border: 1px solid gray;
+   margin : 0 30px 0;
+}
+
+#Featured-Work {
+   margin-top: 1.5em;
+}
+
+#About-me {
+  margin-top: 1.5em;
+}
+
+.profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+/***Apple iPad view***/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.header {
+  letter-spacing: 1px;
+  height: 8em;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.header-logo {
+  display: block;
+  width: 25%;
+  position: relative;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  float: left;
+}
+  
+.header-title {
+  display: block;
+  line-height: 0.2em;
+  position: relative;
+  margin-top: 3em;
+  margin-right: 3em;
+  float: right;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 0.9em;
+}
+
+h3 {
+  font-size: 0.8em;
+}
+
+h4 {
+  font-size: 0.7em;
+}
+
+.img img {
+  display:block;
+  width: 90%;
+  border: 1px solid gray;
+  margin : 0 35px 0;
+}
+
+#Featured-Work {
+  min-height: 100%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#About-me {
+  margin-top: 1.5em;
+}
+
+.centered {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+
+.projects a {
+  margin: 0 auto 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+  
+.project-title {
+  width: 100%;
+  margin: 0;
+  padding: 5%;
+}
+
+.profile-pic {
+  margin-top: 2em;
+  margin-left: 18em;
+  margin-right: 18em;
+}
+
+p {
+  font-size: 80%;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+#Contact {
+  min-height: 100%;
+}
+
+footer {
+  width: 100%;
+}
+}
+  
+/***Desktop view***/
+
+@media screen and (min-width: 768px) and (max-width: 950px){
+  
+body {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+ }
+
+.header {
+  height: 9em;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.header-logo {
+  display:block;
+  width: 30%;
+  position: relative;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom:2em;
+  float: left;
+}
+
+.header-title {
+  line-height: 0.1em;
+  position: relative;
+  display: block;
+  margin-top: 2.5em;
+  margin-right: 1.75em;
+  float: right;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+  
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 0.9em;
+}
+
+h4 {
+  font-size: 0.8em;
+}
+
+.img img {
+  display: block;
+  width: 100%;
+  border: 1px solid gray;
+  margin : 0 60px 0;
+ }
+
+#Featured-Work {
+  margin-top: 2em;
+ }
+  
+#About-me {
+  margin-top: 2em;
+}
+
+.profile-pic {
+  margin-top: 1.5em;
+  margin-left: 25em;
+  margin-right: 25em;
+}
